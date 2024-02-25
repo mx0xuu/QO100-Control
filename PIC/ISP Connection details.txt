@@ -1,0 +1,19 @@
+ISP				16F84A/16F628	12F675		DX Patrol SV1 Pin		16F18444
+
+1	MCLR			Pin #4		Pin #4		Pin #9 (MCLR)			Pin #4
+2	VDD			Pin #14		Pin #1		Pin #7 (DC+)			Pin #1
+3 	VSS (GND)		Pin #5		Pin #8		Pin #5 (GND)			Pin #20
+4	PGD/ICSPDAT (DATA)	Pin #13		Pin #7		Pin #1 (Data)			Pin #19
+5	PGC/ICSPCLK (CLK)	Pin #12		Pin #6		Pin #4 (Clock)			Pin #18
+6	PGM (LVP)
+
+
+ADF4351 Register update 
+	16F18444		AD4351 Board	DX Partol SV1	
+DATA	Pin #19			Pin #5		Pin #1
+CLK	Pin #18			Pin #4		Pin #4
+LE	Pin #17			Pin #6		Pin #3
+CE	Pin #13(Rx)/#12(TX)	Pin #8		Pin #6
+MUX				Pin #3		Pin #8
+GND	Pin #20			Pin #10		Pin #5
+3v3	Pin #1			Pin #9		Pin #7 (Donot Connect)

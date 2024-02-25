@@ -1,0 +1,414 @@
+[p GLOBOPT AUTOSTATIC IEEE_DBL IEEE_FLT PIC14 PIC14E ]
+[d version 1.1 ]
+[d edition pro ]
+[d chip 16F18444 ]
+[d frameptr 6 ]
+"10 C:\Program Files\Microchip\xc8\v2.20\pic\sources\c99\common\sprcadd.c
+[v ___fladd __fladd `(d  1 e 4 0 ]
+"4 C:\Program Files\Microchip\xc8\v2.20\pic\sources\c99\common\Umul8_16.c
+[v __Umul8_16 _Umul8_16 `(ui  1 e 2 0 ]
+"6 C:\Program Files\Microchip\xc8\v2.20\pic\sources\c99\pic\__eeprom.c
+[v ___eecpymem __eecpymem `(v  1 e 1 0 ]
+"39
+[v ___memcpyee __memcpyee `(v  1 e 1 0 ]
+"50 C:\Users\User\OneDrive\Documents\Radio\Misc\PIC\MPLAB\QO100_V3.X\main.c
+[v _main main `(v  1 e 1 0 ]
+"36 C:\Users\User\OneDrive\Documents\Radio\Misc\PIC\MPLAB\QO100_V3.X\mainfunctions.c
+[v _blink_status_rx blink_status_rx `(v  1 e 1 0 ]
+"51
+[v _blink_status_tx blink_status_tx `(v  1 e 1 0 ]
+"66
+[v _SetRelay_Rx SetRelay_Rx `(v  1 e 1 0 ]
+"73
+[v _SetRelay_Tx SetRelay_Tx `(v  1 e 1 0 ]
+"80
+[v _SetTxInhibit_ON SetTxInhibit_ON `(v  1 e 1 0 ]
+"85
+[v _SetTxInhibit_OFF SetTxInhibit_OFF `(v  1 e 1 0 ]
+"90
+[v _WriteRegister32 WriteRegister32 `(v  1 e 1 0 ]
+"104
+[v _SetADF4351_Rx SetADF4351_Rx `(v  1 e 1 0 ]
+"121
+[v _SetADF4351_Tx SetADF4351_Tx `(v  1 e 1 0 ]
+"138
+[v _SwitchToRx SwitchToRx `(v  1 e 1 0 ]
+"146
+[v _SwitchToTx SwitchToTx `(v  1 e 1 0 ]
+"154
+[v _CheckIF CheckIF `(v  1 e 1 0 ]
+"211
+[v _CheckStandBy CheckStandBy `(v  1 e 1 0 ]
+"226
+[v _CheckPTT CheckPTT `(v  1 e 1 0 ]
+"267
+[v _app_setup app_setup `(v  1 e 1 0 ]
+"52 C:\Users\User\OneDrive\Documents\Radio\Misc\PIC\MPLAB\QO100_V3.X\mcc_generated_files/interrupt_manager.c
+[v _INTERRUPT_InterruptManager INTERRUPT_InterruptManager `II(v  1 e 1 0 ]
+"50 C:\Users\User\OneDrive\Documents\Radio\Misc\PIC\MPLAB\QO100_V3.X\mcc_generated_files/mcc.c
+[v _SYSTEM_Initialize SYSTEM_Initialize `(v  1 e 1 0 ]
+"57
+[v _OSCILLATOR_Initialize OSCILLATOR_Initialize `(v  1 e 1 0 ]
+"71
+[v _PMD_Initialize PMD_Initialize `(v  1 e 1 0 ]
+"57 C:\Users\User\OneDrive\Documents\Radio\Misc\PIC\MPLAB\QO100_V3.X\mcc_generated_files/pin_manager.c
+[v _PIN_MANAGER_Initialize PIN_MANAGER_Initialize `(v  1 e 1 0 ]
+"129
+[v _PIN_MANAGER_IOC PIN_MANAGER_IOC `(v  1 e 1 0 ]
+"141
+[v _IOCAF5_ISR IOCAF5_ISR `(v  1 e 1 0 ]
+"156
+[v _IOCAF5_SetInterruptHandler IOCAF5_SetInterruptHandler `(v  1 e 1 0 ]
+"163
+[v _IOCAF5_DefaultInterruptHandler IOCAF5_DefaultInterruptHandler `(v  1 e 1 0 ]
+[s S94 . 1 `uc 1 INTEDG 1 0 :1:0 
+`uc 1 . 1 0 :5:1 
+`uc 1 PEIE 1 0 :1:6 
+`uc 1 GIE 1 0 :1:7 
+]
+"426 C:/Program Files (x86)/Microchip/MPLABX/v5.40/packs/Microchip/PIC16F1xxxx_DFP/1.4.119/xc8\pic\include\proc\pic16f18444.h
+[u S99 . 1 `S94 1 . 1 0 ]
+[v _INTCONbits INTCONbits `VES99  1 e 1 @11 ]
+[s S299 . 1 `uc 1 RA0 1 0 :1:0 
+`uc 1 RA1 1 0 :1:1 
+`uc 1 RA2 1 0 :1:2 
+`uc 1 RA3 1 0 :1:3 
+`uc 1 RA4 1 0 :1:4 
+`uc 1 RA5 1 0 :1:5 
+]
+"461
+[u S306 . 1 `S299 1 . 1 0 ]
+[v _PORTAbits PORTAbits `VES306  1 e 1 @12 ]
+"535
+[v _PORTC PORTC `VEuc  1 e 1 @14 ]
+[s S338 . 1 `uc 1 RC0 1 0 :1:0 
+`uc 1 RC1 1 0 :1:1 
+`uc 1 RC2 1 0 :1:2 
+`uc 1 RC3 1 0 :1:3 
+`uc 1 RC4 1 0 :1:4 
+`uc 1 RC5 1 0 :1:5 
+`uc 1 RC6 1 0 :1:6 
+`uc 1 RC7 1 0 :1:7 
+]
+"552
+[u S347 . 1 `S338 1 . 1 0 ]
+[v _PORTCbits PORTCbits `VES347  1 e 1 @14 ]
+"597
+[v _TRISA TRISA `VEuc  1 e 1 @18 ]
+"647
+[v _TRISB TRISB `VEuc  1 e 1 @19 ]
+"686
+[v _TRISC TRISC `VEuc  1 e 1 @20 ]
+"748
+[v _LATA LATA `VEuc  1 e 1 @24 ]
+[s S282 . 1 `uc 1 LATA0 1 0 :1:0 
+`uc 1 LATA1 1 0 :1:1 
+`uc 1 LATA2 1 0 :1:2 
+`uc 1 LATA3 1 0 :1:3 
+`uc 1 LATA4 1 0 :1:4 
+`uc 1 LATA5 1 0 :1:5 
+]
+"763
+[u S289 . 1 `S282 1 . 1 0 ]
+[v _LATAbits LATAbits `VES289  1 e 1 @24 ]
+"798
+[v _LATB LATB `VEuc  1 e 1 @25 ]
+[s S261 . 1 `uc 1 . 1 0 :4:0 
+`uc 1 LATB4 1 0 :1:4 
+`uc 1 LATB5 1 0 :1:5 
+`uc 1 LATB6 1 0 :1:6 
+`uc 1 LATB7 1 0 :1:7 
+]
+"812
+[u S267 . 1 `S261 1 . 1 0 ]
+[v _LATBbits LATBbits `VES267  1 e 1 @25 ]
+"837
+[v _LATC LATC `VEuc  1 e 1 @26 ]
+[s S316 . 1 `uc 1 LATC0 1 0 :1:0 
+`uc 1 LATC1 1 0 :1:1 
+`uc 1 LATC2 1 0 :1:2 
+`uc 1 LATC3 1 0 :1:3 
+`uc 1 LATC4 1 0 :1:4 
+`uc 1 LATC5 1 0 :1:5 
+`uc 1 LATC6 1 0 :1:6 
+`uc 1 LATC7 1 0 :1:7 
+]
+"854
+[u S325 . 1 `S316 1 . 1 0 ]
+[v _LATCbits LATCbits `VES325  1 e 1 @26 ]
+[s S63 . 1 `uc 1 INTF 1 0 :1:0 
+`uc 1 . 1 0 :3:1 
+`uc 1 IOCIF 1 0 :1:4 
+`uc 1 TMR0IF 1 0 :1:5 
+]
+"18109
+[u S68 . 1 `S63 1 . 1 0 ]
+[v _PIR0bits PIR0bits `VES68  1 e 1 @1804 ]
+[s S50 . 1 `uc 1 INTE 1 0 :1:0 
+`uc 1 . 1 0 :3:1 
+`uc 1 IOCIE 1 0 :1:4 
+`uc 1 TMR0IE 1 0 :1:5 
+]
+"18469
+[u S55 . 1 `S50 1 . 1 0 ]
+[v _PIE0bits PIE0bits `VES55  1 e 1 @1814 ]
+"18825
+[v _PMD0 PMD0 `VEuc  1 e 1 @1942 ]
+"18870
+[v _PMD1 PMD1 `VEuc  1 e 1 @1943 ]
+"18926
+[v _PMD2 PMD2 `VEuc  1 e 1 @1944 ]
+"18947
+[v _PMD3 PMD3 `VEuc  1 e 1 @1945 ]
+"18992
+[v _PMD4 PMD4 `VEuc  1 e 1 @1946 ]
+"19043
+[v _PMD5 PMD5 `VEuc  1 e 1 @1947 ]
+"19070
+[v _PMD6 PMD6 `VEuc  1 e 1 @1948 ]
+"19097
+[v _PMD7 PMD7 `VEuc  1 e 1 @1949 ]
+"20170
+[v _OSCCON1 OSCCON1 `VEuc  1 e 1 @2189 ]
+"20310
+[v _OSCCON3 OSCCON3 `VEuc  1 e 1 @2191 ]
+"20407
+[v _OSCEN OSCEN `VEuc  1 e 1 @2193 ]
+"20458
+[v _OSCTUNE OSCTUNE `VEuc  1 e 1 @2194 ]
+"20516
+[v _OSCFRQ OSCFRQ `VEuc  1 e 1 @2195 ]
+"29512
+[v _ANSELA ANSELA `VEuc  1 e 1 @7992 ]
+"29557
+[v _WPUA WPUA `VEuc  1 e 1 @7993 ]
+"29607
+[v _ODCONA ODCONA `VEuc  1 e 1 @7994 ]
+"29652
+[v _SLRCONA SLRCONA `VEuc  1 e 1 @7995 ]
+"29697
+[v _INLVLA INLVLA `VEuc  1 e 1 @7996 ]
+[s S189 . 1 `uc 1 IOCAP0 1 0 :1:0 
+`uc 1 IOCAP1 1 0 :1:1 
+`uc 1 IOCAP2 1 0 :1:2 
+`uc 1 IOCAP3 1 0 :1:3 
+`uc 1 IOCAP4 1 0 :1:4 
+`uc 1 IOCAP5 1 0 :1:5 
+]
+"29762
+[u S196 . 1 `S189 1 . 1 0 ]
+[v _IOCAPbits IOCAPbits `VES196  1 e 1 @7997 ]
+[s S172 . 1 `uc 1 IOCAN0 1 0 :1:0 
+`uc 1 IOCAN1 1 0 :1:1 
+`uc 1 IOCAN2 1 0 :1:2 
+`uc 1 IOCAN3 1 0 :1:3 
+`uc 1 IOCAN4 1 0 :1:4 
+`uc 1 IOCAN5 1 0 :1:5 
+]
+"29812
+[u S179 . 1 `S172 1 . 1 0 ]
+[v _IOCANbits IOCANbits `VES179  1 e 1 @7998 ]
+[s S155 . 1 `uc 1 IOCAF0 1 0 :1:0 
+`uc 1 IOCAF1 1 0 :1:1 
+`uc 1 IOCAF2 1 0 :1:2 
+`uc 1 IOCAF3 1 0 :1:3 
+`uc 1 IOCAF4 1 0 :1:4 
+`uc 1 IOCAF5 1 0 :1:5 
+]
+"29862
+[u S162 . 1 `S155 1 . 1 0 ]
+[v _IOCAFbits IOCAFbits `VES162  1 e 1 @7999 ]
+"29897
+[v _ANSELB ANSELB `VEuc  1 e 1 @8003 ]
+"29936
+[v _WPUB WPUB `VEuc  1 e 1 @8004 ]
+"29975
+[v _ODCONB ODCONB `VEuc  1 e 1 @8005 ]
+"30014
+[v _SLRCONB SLRCONB `VEuc  1 e 1 @8006 ]
+"30053
+[v _INLVLB INLVLB `VEuc  1 e 1 @8007 ]
+"30209
+[v _ANSELC ANSELC `VEuc  1 e 1 @8014 ]
+"30271
+[v _WPUC WPUC `VEuc  1 e 1 @8015 ]
+"30333
+[v _ODCONC ODCONC `VEuc  1 e 1 @8016 ]
+"30395
+[v _SLRCONC SLRCONC `VEuc  1 e 1 @8017 ]
+"30457
+[v _INLVLC INLVLC `VEuc  1 e 1 @8018 ]
+"11 C:\Users\User\OneDrive\Documents\Radio\Misc\PIC\MPLAB\QO100_V3.X\mainfunctions.c
+[v _G_STBY_STATE G_STBY_STATE `uc  1 e 1 0 ]
+"12
+[v _G_PTT_STATE G_PTT_STATE `uc  1 e 1 0 ]
+"14
+[v _G_PORTC_OLD G_PORTC_OLD `uc  1 e 1 0 ]
+"17
+[v _rx_reg rx_reg `[6]ul  1 e 24 0 ]
+"18
+[v _tx_reg tx_reg `[6]ul  1 e 24 0 ]
+"21
+[v _rx_reg_28 rx_reg_28 `[6]ul  1 e 24 0 ]
+"23
+[v _tx_reg_28 tx_reg_28 `[6]ul  1 e 24 0 ]
+"26
+[v _rx_reg_50 rx_reg_50 `[6]ul  1 e 24 0 ]
+"28
+[v _tx_reg_50 tx_reg_50 `[6]ul  1 e 24 0 ]
+"31
+[v _rx_reg_144 rx_reg_144 `[6]ul  1 e 24 0 ]
+"33
+[v _tx_reg_144 tx_reg_144 `[6]ul  1 e 24 0 ]
+"54 C:\Users\User\OneDrive\Documents\Radio\Misc\PIC\MPLAB\QO100_V3.X\mcc_generated_files/pin_manager.c
+[v _IOCAF5_InterruptHandler IOCAF5_InterruptHandler `*.37(v  1 e 2 0 ]
+"50 C:\Users\User\OneDrive\Documents\Radio\Misc\PIC\MPLAB\QO100_V3.X\main.c
+[v _main main `(v  1 e 1 0 ]
+{
+"75
+} 0
+"267 C:\Users\User\OneDrive\Documents\Radio\Misc\PIC\MPLAB\QO100_V3.X\mainfunctions.c
+[v _app_setup app_setup `(v  1 e 1 0 ]
+{
+"282
+} 0
+"50 C:\Users\User\OneDrive\Documents\Radio\Misc\PIC\MPLAB\QO100_V3.X\mcc_generated_files/mcc.c
+[v _SYSTEM_Initialize SYSTEM_Initialize `(v  1 e 1 0 ]
+{
+"55
+} 0
+"71
+[v _PMD_Initialize PMD_Initialize `(v  1 e 1 0 ]
+{
+"89
+} 0
+"57 C:\Users\User\OneDrive\Documents\Radio\Misc\PIC\MPLAB\QO100_V3.X\mcc_generated_files/pin_manager.c
+[v _PIN_MANAGER_Initialize PIN_MANAGER_Initialize `(v  1 e 1 0 ]
+{
+"127
+} 0
+"156
+[v _IOCAF5_SetInterruptHandler IOCAF5_SetInterruptHandler `(v  1 e 1 0 ]
+{
+[v IOCAF5_SetInterruptHandler@InterruptHandler InterruptHandler `*.37(v  1 p 2 0 ]
+"158
+} 0
+"57 C:\Users\User\OneDrive\Documents\Radio\Misc\PIC\MPLAB\QO100_V3.X\mcc_generated_files/mcc.c
+[v _OSCILLATOR_Initialize OSCILLATOR_Initialize `(v  1 e 1 0 ]
+{
+"69
+} 0
+"211 C:\Users\User\OneDrive\Documents\Radio\Misc\PIC\MPLAB\QO100_V3.X\mainfunctions.c
+[v _CheckStandBy CheckStandBy `(v  1 e 1 0 ]
+{
+"224
+} 0
+"226
+[v _CheckPTT CheckPTT `(v  1 e 1 0 ]
+{
+"244
+} 0
+"146
+[v _SwitchToTx SwitchToTx `(v  1 e 1 0 ]
+{
+"152
+} 0
+"80
+[v _SetTxInhibit_ON SetTxInhibit_ON `(v  1 e 1 0 ]
+{
+"83
+} 0
+"73
+[v _SetRelay_Tx SetRelay_Tx `(v  1 e 1 0 ]
+{
+"78
+} 0
+"138
+[v _SwitchToRx SwitchToRx `(v  1 e 1 0 ]
+{
+"144
+} 0
+"85
+[v _SetTxInhibit_OFF SetTxInhibit_OFF `(v  1 e 1 0 ]
+{
+"88
+} 0
+"66
+[v _SetRelay_Rx SetRelay_Rx `(v  1 e 1 0 ]
+{
+"71
+} 0
+"154
+[v _CheckIF CheckIF `(v  1 e 1 0 ]
+{
+"180
+[v CheckIF@i_435 i `i  1 a 2 10 ]
+"170
+[v CheckIF@i_434 i `i  1 a 2 8 ]
+"160
+[v CheckIF@i i `i  1 a 2 6 ]
+"209
+} 0
+"51
+[v _blink_status_tx blink_status_tx `(v  1 e 1 0 ]
+{
+"55
+[v blink_status_tx@i i `i  1 a 2 5 ]
+"51
+[v blink_status_tx@count_val count_val `i  1 p 2 0 ]
+[v blink_status_tx@duration_val duration_val `i  1 p 2 2 ]
+"64
+} 0
+"36
+[v _blink_status_rx blink_status_rx `(v  1 e 1 0 ]
+{
+"40
+[v blink_status_rx@i i `i  1 a 2 4 ]
+"36
+[v blink_status_rx@count_val count_val `i  1 p 2 0 ]
+[v blink_status_rx@duration_val duration_val `uc  1 p 1 2 ]
+"49
+} 0
+"121
+[v _SetADF4351_Tx SetADF4351_Tx `(v  1 e 1 0 ]
+{
+"123
+[v SetADF4351_Tx@i i `i  1 a 2 7 ]
+"136
+} 0
+"104
+[v _SetADF4351_Rx SetADF4351_Rx `(v  1 e 1 0 ]
+{
+"106
+[v SetADF4351_Rx@i i `i  1 a 2 7 ]
+"119
+} 0
+"90
+[v _WriteRegister32 WriteRegister32 `(v  1 e 1 0 ]
+{
+"92
+[v WriteRegister32@i i `i  1 a 2 4 ]
+"90
+[v WriteRegister32@value value `ul  1 p 4 0 ]
+"102
+} 0
+"52 C:\Users\User\OneDrive\Documents\Radio\Misc\PIC\MPLAB\QO100_V3.X\mcc_generated_files/interrupt_manager.c
+[v _INTERRUPT_InterruptManager INTERRUPT_InterruptManager `II(v  1 e 1 0 ]
+{
+"63
+} 0
+"129 C:\Users\User\OneDrive\Documents\Radio\Misc\PIC\MPLAB\QO100_V3.X\mcc_generated_files/pin_manager.c
+[v _PIN_MANAGER_IOC PIN_MANAGER_IOC `(v  1 e 1 0 ]
+{
+"136
+} 0
+"141
+[v _IOCAF5_ISR IOCAF5_ISR `(v  1 e 1 0 ]
+{
+"151
+} 0
+"163
+[v _IOCAF5_DefaultInterruptHandler IOCAF5_DefaultInterruptHandler `(v  1 e 1 0 ]
+{
+"166
+} 0
